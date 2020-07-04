@@ -22,6 +22,34 @@
   width: 30px;
   height: 30px;
 }
+.collapse1{
+  cursor: pointer;
+  display: block;
+  background:transparent;
+}
+.collapse1 + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse1 + input  + div{
+  display:none;
+}
+.collapse1 + input:checked + div{
+  display:block;
+}
+.collapse{
+  cursor: pointer;
+  display: block;
+  background: #ece;
+}
+.collapse + input{
+  display: none; /* hide the checkboxes */
+}
+.collapse + input  + div{
+  display:none;
+}
+.collapse + input:checked + div{
+  display:block;
+}
 
 @media (orientation: landscape){
     body{flex-direction: row;}
