@@ -13,6 +13,16 @@
 .col-11{width:91.67%;} 
 .col-12{width:100%;} 
 
+.navbar-btn  {
+  float: right;
+  background-color: transparent;
+  border: 0px;
+}
+.navbar-btn img {
+  width: 30px;
+  height: 30px;
+}
+
 @media (orientation: landscape){
     body{flex-direction: row;}
     .col-1{width:8.33%;}                          
