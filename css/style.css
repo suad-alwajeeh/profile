@@ -2,7 +2,11 @@ html,body{
   margin: 0px;
   padding: 0px;
 }
-
+.row::after{
+content: "";
+clear: both;
+display: table;
+}
 /**************************start grid system***************************/
 [class*="col-"]{float: left;box-sizing: border-box;}
 .col-1{width:8.33%;}                          
