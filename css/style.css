@@ -179,26 +179,16 @@ display: table;
   background-size: contain;
 }
 .icon-bar {
-<<<<<<< HEAD
   position: absolute;
   top: 75vh;
   left: 93%;
-=======
-  position: fixed;
-  top: 93%;
-  left: 45.5%;
->>>>>>> d16321cf73d03b72ad5ad4274fa10b401d474bc5
-}
+} 
 
 .icon-bar a {
   display: block;
   text-align: center;
 <<<<<<< HEAD
   color: #c32526;
-=======
-  padding: 10px 10px 10px 10px;
-  color: white;
->>>>>>> d16321cf73d03b72ad5ad4274fa10b401d474bc5
   font-size: 20px;
   margin: 0px;
   margin-bottom: 8px;}
