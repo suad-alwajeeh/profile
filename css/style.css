@@ -180,8 +180,8 @@ display: table;
 }
 .icon-bar {
   position: absolute;
-  top: 75vh;
-  left: 93%;
+ top: 75vh;
+left: 93%;
 } 
 
 .icon-bar a {
@@ -191,6 +191,7 @@ display: table;
   font-size: 20px;
   margin: 0px;
   margin-bottom: 8px;}
+
 .icon-bar a:hover {
   color:#c32526;
 }
