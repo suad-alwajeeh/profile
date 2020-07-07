@@ -1,4 +1,3 @@
-
 @media (orientation: landscape){
   body{flex-direction: row;}
   .col-1{width:8.33%;}                          
@@ -163,6 +162,7 @@ body{flex-direction: column;}
 html,body{
   margin: 0px;
   padding: 0px;
+  background-color: #000 importent;
 }
 .row::after{
 content: "";
