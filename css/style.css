@@ -18,18 +18,14 @@ display: table;
 }
 .icon-bar {
   position: fixed;
-  top: 95%;
+  top: 93%;
   left: 45.5%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .icon-bar a {
   display: inline;
   text-align: center;
   padding: 10px 10px 10px 10px;
-  transition: all 0.3s ease;
   color: white;
   font-size: 20px;
   background-color: #c32526;
