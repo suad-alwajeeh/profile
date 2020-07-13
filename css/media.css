@@ -35,6 +35,7 @@ html,body{
   font-size: 40px;
   border-left: 3px solid #c32526;
   border-radius: 9px;
+  text-align: left;
 }
 .h11 {
   position: absolute;
@@ -46,6 +47,7 @@ html,body{
   font-size: 40px;
   border-right: 3px solid #c32526;
   border-radius: 9px;
+  text-align: right;
 }
 
 @media (orientation: landscape){
@@ -123,7 +125,28 @@ body{flex-direction: column;}
 .col-xs-12{width:100%;} 
 }
 @media  (min-width: 500px) {
-
+  .h1 {
+    position: absolute;
+    top: 15%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 27%;
+    font-size: 30px;
+    border-left: 3px solid #c32526;
+    border-radius: 9px;
+  }
+  .h11 {
+    position: absolute;
+    top: 81%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 27%;
+    font-size: 30px;
+    border-right: 3px solid #c32526;
+    border-radius: 9px;
+  }
   .navbar{display: block;}
   .navbar1{display: none;}
   .col-xs-1{width:8.33%;}                          
@@ -142,7 +165,29 @@ body{flex-direction: column;}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (min-width: 600px) {
-
+  .h1 {
+    position: absolute;
+    top: 10%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 22%;
+    font-size: 40px;
+    border-left: 3px solid #c32526;
+    border-radius: 9px;
+}
+.h11 {
+  position: absolute;
+  top: 79%;
+  color: beige;
+  font-family: "banner";
+  padding: 5px 10px;
+  left: 22%;
+  font-size: 40px;
+  border-right: 3px solid #c32526;
+  border-radius: 9px;
+}
+  
   .navbar{display: block;}
 .navbar1{display: none;}
   .col-sm-1{width:8.33%;}                          
@@ -161,7 +206,27 @@ body{flex-direction: column;}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (min-width: 768px) {
-
+  .h1 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 0%;
+        font-size: 40px;
+    border-left: 3px solid #c32526;
+    border-radius: 9px;
+  }
+  .h11 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+right: 5%;        font-size: 35px;
+    border-right: 3px solid #c32526;
+    border-radius: 9px;
+  }
   .navbar{display: none;}
 .navbar1{display: block;}
   .col-md-1{width:8.33%;}                          
@@ -180,7 +245,27 @@ body{flex-direction: column;}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media (min-width: 992px) {
-
+  .h1 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 4%;
+        font-size: 40px;
+    border-left: 3px solid #c32526;
+    border-radius: 9px;
+  }
+  .h11 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    right: 10%;        font-size: 35px;
+    border-right: 3px solid #c32526;
+    border-radius: 9px;
+  }
   .col-lg-1{width:8.33%;}                          
   .col-lg-2{width:16.66%;}                          
   .col-lg-3{width:25%;}                          
@@ -196,7 +281,28 @@ body{flex-direction: column;}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+  .h1 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 19%;
+        font-size: 40px;
+    border-left: 3px solid #c32526;
+    border-radius: 9px;
+  }
+  .h11 {
+    position: absolute;
+    top: 41%;
+    color: beige;
+    font-family: "banner";
+    padding: 5px 10px;
+    left: 5%;
+        font-size: 35px;
+    border-right: 3px solid #c32526;
+    border-radius: 9px;
+  }
   .col-xl-1{width:8.33%;}                          
   .col-xl-2{width:16.66%;}                          
   .col-xl-3{width:25%;}                          
@@ -362,7 +468,7 @@ padding: 5px;}
     color: #bfbfba;
     font-size: 20px;
     padding-top: 31px;
-
+    margin-bottom: 50px;
 }
 .p2{
     color: #bfbfba;
