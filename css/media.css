@@ -10,7 +10,6 @@ html,body{
   height: 50px;
   padding: 6px 1px 0px 1px;
   position: fixed;
-  display: none;
   top: 0px;
   width: 100%;
 }
@@ -185,8 +184,7 @@ textarea{
   }
 h1 {
   margin-left: 5vh;
-  color: rgb(197, 197, 197);
-  font-size: 28px;
+  color:rgb(247, 243, 243);  font-size: 28px;
 }
 label{
   display: block;
@@ -194,54 +192,95 @@ label{
   font-weight: normal;
   margin-left: 20px;
 }
-.p3 {margin-top: -25px;
-  text-align: left;
-  color: #bfbfba;
-  font-size: 20px;
-  margin-left: 5vh;
+.p2{
+  text-align: center;
+  line-height: 0;
+  font-size: 21px;
+  padding: 23px;
+  color: #fff;
+  margin-left: ;
 }
 .mybtn {
-  background-color: #c32526;
-  border-color: #c32526;
-  color: beige;
-  width: 121px;
+  background-color: #fbfbfb;
+  border-color: #d2b2b7;
+  color: #a7a7a7;
+  width: 147px;
   height: 43px;
-  border-radius: 5px;
-  box-shadow: 0px 0px 69px 4px gray;
+  border-radius: 20px;
   font-weight: bold;
+  transition: linear 1s;
+}
+.mybtn:hover{ 
+  background-color:#d2b2b7 ;
+   box-shadow: 0px 0px 9px 6px #eaeaea;
+   color: #eaeaea;
 }
 .row::after{
 content: "";
 clear: both;
 display: table;
 }
+.cont{
+  position: relative;
+  bottom: -10%;
+  padding: 40px 50px;
+  background-image: url("../img/m.jpg");
+  background-attachment:fixed ;
+  background-size: cover;
+  background-position: center;
+}
 .banner {
-  width: 100vw;
   height: 100vh;
+    max-height: 100vh;
   background-image: url('../img/green-flower-bouquet-on-white-background-961402.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
   background-position-x: left;
-  position:relative;
-top: 0%;
+  position: relative;
 background-color: #f7fdfceb;
+background-size: cover;
 }
+.second-lyer {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #95687336;
+  opacity: .8;
+  top: 0px;
+}
+.head-text {
+  position: absolute;
+  color: #a18ba2;
+  font-size: 20px;
+  top: 50vh;
+}
+h1,h3{
+    text-align: center;
+}
+.head-text h1 {
+  margin-left: 5vh;
+  color: rgb(137, 110, 120);
+  font-size: 28px;
+}
+
 .icon-bar {
   position: fixed;
- top: 75vh;
-left: 93%;
-} 
-
+  top: 75vh;
+  right: 1%;
+}
 .icon-bar a {
   display: block;
   text-align: center;
-  color: #c32526;
+  color: #896e78ed;
   font-size: 20px;
   margin: 0px;
-  margin-bottom: 8px;}
-
+      margin-bottom: 0px;
+  margin-bottom: 8px;
+transition: ease 1s;
+}
 .icon-bar a:hover {
-  color:#c32526;
+  color:#6f4957ed;
+  transform: rotate(360deg);
+
 }
 
 .content {
@@ -312,23 +351,29 @@ padding: 5px;}
 }
 
 #li {display: inline; padding: 24px;}
-.p1 {    margin-top: 4%;
-  margin-left: 8%;
+.p1 {  
   text-align: center;
-    color: #bfbfba;
-    font-size: 20px;
-    padding-top: 31px;
-    margin-bottom: 50px;
+  line-height: 2;
+  font-size: 19px;
+  padding: 23px;
+  color: #755274;
+  margin-left: 8%;
 }
-.p2{
-    color: #bfbfba;
-    font-size: x-large;
-    text-align: center;
-    height: 109px;
-    font-weight: initial;
-    padding-top: 75px;
+.p2 {
+  color: #967c9de8;
+  font-size: x-large;
+  text-align: center;
+  position: relative;
+top: 29%;
 }
-
+.div2 {
+height: 40%;
+  background-color: #f2ece0;
+}
+.div1 {
+  background: #d2b2b7;
+  height: 40%;
+}
 
 
 
